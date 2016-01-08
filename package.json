@@ -1,0 +1,39 @@
+{
+  "name": "sparkbars-example",
+  "version": "0.0.1",
+  "description": "Example for sparkbars component",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sigfried/sparkbars-example.git"
+  },
+  "keywords": [
+    "react-component",
+    "d3",
+    "react"
+  ],
+  "author": "Sigfried Gold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sigfried/sparkbars-example/issues"
+  },
+  "homepage": "https://github.com/Sigfried/sparkbars-example",
+  "dependencies": {
+    "d3": "^3.5.12",
+    "lodash": "^3.10.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "sparkbars": "0.0.6"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.0.12",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.12",
+    "babel-preset-react": "^6.0.15",
+    "webpack": "^1.12.10"
+  }
+}
